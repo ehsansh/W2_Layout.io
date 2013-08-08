@@ -1,0 +1,12 @@
+body {
+	height: 1800px;
+	background-image: url('../images/backguid.jpg');
+	background-color: green;
+}
+header,
+body>div{
+	outline: 1px dashed blue;	
+}
+
+
+
