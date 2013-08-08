@@ -9,4 +9,12 @@ body>div{
 }
 
 
+header{
+	min-height: 83px;
+}
+div.slideshow{
+	min-height: 443px;
+}
+
+
 
