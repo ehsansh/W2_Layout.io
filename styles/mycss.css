@@ -1,20 +1,50 @@
 body {
-	height: 1800px;
+	height: 1850px;
 	background-image: url('../images/backguid.jpg');
 	background-color: green;
+	background-repeat: no-repeat;
+	background-position: top center;
 }
 header,
+footer,
 body>div{
 	outline: 1px dashed blue;	
 }
+header div,
+header nav,
+div.content div{
+	outline: 2px solid red;
+}
 
 
+/*styling header*/
 header{
 	min-height: 83px;
 }
+header div.container{
+	margin: 0 auto;
+	width: 990px;
+}
+
+/* styling slideshow*/
 div.slideshow{
 	min-height: 443px;
 }
 
+/*styling contnet*/
+div.content{
+	min-height: 918px;
+	width: 996px;
+	margin: 0 auto;
+}
+.content div.floor1{
+	margin-top: 56px;
+}
 
+
+/*styling footer*/
+footer{
+	min-height: 410px;
+	
+}
 
