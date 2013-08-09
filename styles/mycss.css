@@ -12,7 +12,9 @@ body>div{
 }
 header div,
 header nav,
-div.content div{
+div.content div,
+div.darkfloor div,
+footer div.floor5 div{
 	outline: 2px solid red;
 }
 
@@ -24,6 +26,7 @@ header{
 header div.container{
 	margin: 0 auto;
 	width: 990px;
+
 }
 
 /* styling slideshow*/
@@ -40,11 +43,45 @@ div.content{
 .content div.floor1{
 	margin-top: 56px;
 }
+.content div.floor2{
+	min-height: 310px;
+}
+.content div.floor2>div{
+	min-height: inherit;
+	width: 248px;
+}
+.content div.floor3{
+	min-height: 443px;
+}
+.content div.floor3>div{
+	min-height: inherit;
+	width: 248px;
+}
+
 
 
 /*styling footer*/
-footer{
-	min-height: 410px;
-	
+div.darkfloor{
+	min-height: 350px;
+	width: 996px;
+	margin: 0 auto;
+}
+.darkfloor div.floor4{
+	min-height: 350px;
+}
+.darkfloor div.floor4>div{
+	min-height: inherit;
+	width: 246px;
+}
+.darkfloor div.floor4>div:nth-child(4){	
+	margin-left: 738px;
+	width: auto;
+}
+
+
+
+footer div.floor5{
+	width: 996px;
+	margin: 0 auto;
 }
 
