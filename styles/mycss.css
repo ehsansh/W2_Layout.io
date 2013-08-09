@@ -26,8 +26,44 @@ header{
 header div.container{
 	margin: 0 auto;
 	width: 990px;
-
 }
+header div.logo a{
+	display: block;
+	width: 97px;
+	height: 22px;
+	margin-top: 27px;
+	margin-left: 15px;
+}
+header menu.main{
+	list-style-type: none;
+	height: 80px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 11px;
+}
+menu.main li{
+	float: left;
+	margin-right: 54px;
+}
+menu.main li:last-child{
+	margin-right: 0;
+}
+menu.main li a{
+	text-decoration: none;
+	display: block;
+	padding-top: 27px;
+	padding-bottom: 35px;
+	border-top: 3px solid white;
+	color:#333;
+	font-family: MuseoSlab500Regular, arial, helvetica, sans-serif;
+	font-size: 14px;
+}
+menu.main li:hover a{
+	border-top: 3px solid #A0CE4E;
+	color: #A0CE4E;
+}
+
+
 
 /* styling slideshow*/
 div.slideshow{
@@ -84,4 +120,6 @@ footer div.floor5{
 	width: 996px;
 	margin: 0 auto;
 }
+
+
 
