@@ -1,21 +1,12 @@
-body {
-	height: 1850px;
-	background-image: url('../images/backguid.jpg');
-	
-	background-repeat: no-repeat;
-	background-position: top center;
-}
 header,
 footer,
 body>div{
-	outline: 1px dashed blue;	
+	outline: 1px solid red;
 }
 header div,
-header nav,
-div.content div,
-div.darkfloor div,
-footer div.floor5 div{
-	outline: 2px solid red;
+footer div,
+body>div div{
+	outline: 1px dashed blue;
 }
 
 
@@ -53,12 +44,14 @@ menu.main li a{
 	padding-top: 27px;
 	padding-bottom: 35px;
 	border-top: 3px solid white;
+	border-bottom: 3px solid white;
 	color:#333;
 	font-family: MuseoSlab500Regular, arial, helvetica, sans-serif;
 	font-size: 14px;
 }
 menu.main li:hover a{
 	border-top: 3px solid #A0CE4E;
+	border-bottom: 3px solid #A0CE4E;
 	color: #A0CE4E;
 }
 
@@ -98,6 +91,7 @@ div.content{
 	margin-top: 26px;
 }
 .content div.floor1>div:nth-child(2){
+	background-color: #F7F3F7;
 	margin-right: 200px;	
 }
 .content div.floor2{
@@ -140,18 +134,78 @@ div.content{
 	min-height: inherit;
 	width: 248px;
 }
+.content div.floor3 h2{	
+	font-size: 18px;
+	padding-left: 19px;
+	padding-top: 5px;
+}
+.content div.floor3>div:nth-child(1) img{
+	margin-left: 18px;
+	margin-top: 15px;
+}
+.content div.floor3>div:nth-child(2) img,
+.content div.floor3>div:nth-child(3) img{
+	margin-top: 73px;
+	margin-left: 12px;
+}
+.content div.floor3>div:nth-child(4) p{
+	background-color:#F7F3F7;
+	width: 190px;
+	margin-left: 14px;
+	margin-top: 33px;
+	height: 103px;
+	padding: 10px;
+}
+.content div.floor3 h4{
+	font-size: 13px;
+	margin: 0;
+	padding-top: 12px;
+	padding-left: 17px;
+}
+.content div.floor3 p{
+	padding-left: 16px;
+}
+.content div.floor3 ul{
+	height: 14px;
+	margin-top: 4px;
+	padding-left: 19px;
+}
+.content div.floor3 li{
+	font-size: 12px;
+	list-style-type: none;
+	float: left;
+}
+.content div.floor3 li a{
+	text-decoration: none;
+	color:#333;
+}
+.content div.floor3 li:hover a{
+	color:  #A0CE4E;
+}
 
 
 
 
 /*styling footer*/
 div.darkfloor{
+	background-color: #313839;
+}
+div.darkfloor div.floor4{
 	min-height: 350px;
 	width: 996px;
-	margin: 0 auto;
+	margin: 0 auto;	
+	font-size: 13px;
+	color: rgb(131, 131, 131);	
 }
-.darkfloor div.floor4{
-	min-height: 350px;
+.darkfloor div.floor4 li:hover a{
+	color:  #A0CE4E;
+}
+div.darkfloor div.floor4 a{
+	color: rgb(191, 191, 191);
+	text-decoration: none;
+}
+div.darkfloor div.floor4 h3{
+	color:rgb(221, 221, 221);
 }
 .darkfloor div.floor4>div{
 	min-height: inherit;
@@ -161,13 +215,63 @@ div.darkfloor{
 	margin-left: 738px;
 	width: auto;
 }
+.darkfloor div.floor4>div:nth-child(1) img{
+	margin-top: 39px;
+	margin-left: 18px;
+}
+.darkfloor div.floor4>div:nth-child(1) p{
+	padding: 9px 18px;
+}
+.darkfloor div.floor4>div:nth-child(2) h3{
+	padding: 25px 17px 0;
+}
+.darkfloor div.floor4>div:nth-child(2) ul{
+	padding: 0;
+	list-style-type: none;
+}
+.darkfloor div.floor4>div:nth-child(2) li{
+	margin: 23px 16px;
+}
+.darkfloor div.floor4>div:nth-child(3) h3{
+	padding: 40px 14px 24px;
+	margin: 0;
+}
+.darkfloor div.floor4>div:nth-child(3) i{
+	font-size: 34px;
+	color:rgb(221, 221, 221);
+	margin-left: 17px;
+	float: left;
+}
+.darkfloor div.floor4>div:nth-child(3) p{
+	margin: 0 4px 32px 56px;
+}
+.darkfloor div.floor4>div:nth-child(4) h3{
+	font-size: 13px;
+	margin: 0;
+	padding: 40px 0 32px 13px;
+}
+.darkfloor div.floor4 div.images{
+	width: 207px;
+	margin-left: 19px;
+}
 
 
-
+footer{
+	background-color: #292829;
+}
 footer div.floor5{
 	width: 996px;
 	margin: 0 auto;
 }
-
-
-
+footer{
+	font-size: 12px;
+	color: rgb(140, 137, 137);
+}
+footer a{
+	color: #BFBFBF;
+	text-decoration: none;
+}
+footer ul{
+	list-style-type: none;
+}
+	
